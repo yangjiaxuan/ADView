@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45644BE51DC719DA00F5611B /* ADViewFlipAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 45644BE41DC719DA00F5611B /* ADViewFlipAnimation.m */; };
+		45644BE81DC71D2600F5611B /* ADViewCubeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 45644BE71DC71D2600F5611B /* ADViewCubeAnimation.m */; };
+		45644BEB1DC71DAF00F5611B /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 45644BEA1DC71DAF00F5611B /* UIView+Frame.m */; };
+		45644BEE1DC729E400F5611B /* ADViewLinerAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 45644BED1DC729E400F5611B /* ADViewLinerAnimation.m */; };
+		45644BF91DC7334000F5611B /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = 45644BF31DC7334000F5611B /* 6.png */; };
+		45644BFA1DC7334000F5611B /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = 45644BF41DC7334000F5611B /* 5.png */; };
+		45644BFB1DC7334000F5611B /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = 45644BF51DC7334000F5611B /* 4.png */; };
+		45644BFC1DC7334000F5611B /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 45644BF61DC7334000F5611B /* 3.png */; };
+		45644BFD1DC7334000F5611B /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 45644BF71DC7334000F5611B /* 2.png */; };
+		45644BFE1DC7334000F5611B /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 45644BF81DC7334000F5611B /* 1.png */; };
+		45644C011DC735AB00F5611B /* ADViewSuckEffectAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 45644C001DC735AB00F5611B /* ADViewSuckEffectAnimation.m */; };
+		45644C071DC737DD00F5611B /* ADViewBaseAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 45644C041DC737DD00F5611B /* ADViewBaseAnimation.m */; };
+		45644C081DC737DD00F5611B /* ADViewTransitionAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 45644C061DC737DD00F5611B /* ADViewTransitionAnimation.m */; };
+		45B5291B1D9E544C009BC4AD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B5291A1D9E544C009BC4AD /* main.m */; };
+		45B5291E1D9E544C009BC4AD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B5291D1D9E544C009BC4AD /* AppDelegate.m */; };
+		45B529211D9E544C009BC4AD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B529201D9E544C009BC4AD /* ViewController.m */; };
+		45B529241D9E544C009BC4AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45B529221D9E544C009BC4AD /* Main.storyboard */; };
+		45B529261D9E544C009BC4AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45B529251D9E544C009BC4AD /* Assets.xcassets */; };
+		45B529291D9E544C009BC4AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45B529271D9E544C009BC4AD /* LaunchScreen.storyboard */; };
+		45B529341D9E544C009BC4AD /* ADViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B529331D9E544C009BC4AD /* ADViewTests.m */; };
+		45B5293F1D9E544C009BC4AD /* ADViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B5293E1D9E544C009BC4AD /* ADViewUITests.m */; };
+		45B5294F1D9E5481009BC4AD /* ADView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B5294E1D9E5481009BC4AD /* ADView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45B529301D9E544C009BC4AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45B5290E1D9E544C009BC4AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45B529151D9E544C009BC4AD;
+			remoteInfo = ADView;
+		};
+		45B5293B1D9E544C009BC4AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45B5290E1D9E544C009BC4AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45B529151D9E544C009BC4AD;
+			remoteInfo = ADView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45644BE31DC719DA00F5611B /* ADViewFlipAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADViewFlipAnimation.h; sourceTree = "<group>"; };
+		45644BE41DC719DA00F5611B /* ADViewFlipAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADViewFlipAnimation.m; sourceTree = "<group>"; };
+		45644BE61DC71D2600F5611B /* ADViewCubeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADViewCubeAnimation.h; sourceTree = "<group>"; };
+		45644BE71DC71D2600F5611B /* ADViewCubeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADViewCubeAnimation.m; sourceTree = "<group>"; };
+		45644BE91DC71DAF00F5611B /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		45644BEA1DC71DAF00F5611B /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		45644BEC1DC729E400F5611B /* ADViewLinerAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADViewLinerAnimation.h; sourceTree = "<group>"; };
+		45644BED1DC729E400F5611B /* ADViewLinerAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADViewLinerAnimation.m; sourceTree = "<group>"; };
+		45644BF31DC7334000F5611B /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 6.png; sourceTree = "<group>"; };
+		45644BF41DC7334000F5611B /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 5.png; sourceTree = "<group>"; };
+		45644BF51DC7334000F5611B /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 4.png; sourceTree = "<group>"; };
+		45644BF61DC7334000F5611B /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		45644BF71DC7334000F5611B /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		45644BF81DC7334000F5611B /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		45644BFF1DC735AB00F5611B /* ADViewSuckEffectAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADViewSuckEffectAnimation.h; sourceTree = "<group>"; };
+		45644C001DC735AB00F5611B /* ADViewSuckEffectAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADViewSuckEffectAnimation.m; sourceTree = "<group>"; };
+		45644C031DC737DD00F5611B /* ADViewBaseAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADViewBaseAnimation.h; sourceTree = "<group>"; };
+		45644C041DC737DD00F5611B /* ADViewBaseAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADViewBaseAnimation.m; sourceTree = "<group>"; };
+		45644C051DC737DD00F5611B /* ADViewTransitionAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADViewTransitionAnimation.h; sourceTree = "<group>"; };
+		45644C061DC737DD00F5611B /* ADViewTransitionAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADViewTransitionAnimation.m; sourceTree = "<group>"; };
+		45B529161D9E544C009BC4AD /* ADView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ADView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45B5291A1D9E544C009BC4AD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45B5291C1D9E544C009BC4AD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		45B5291D1D9E544C009BC4AD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		45B5291F1D9E544C009BC4AD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		45B529201D9E544C009BC4AD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		45B529231D9E544C009BC4AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45B529251D9E544C009BC4AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		45B529281D9E544C009BC4AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		45B5292A1D9E544C009BC4AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45B5292F1D9E544C009BC4AD /* ADViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45B529331D9E544C009BC4AD /* ADViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADViewTests.m; sourceTree = "<group>"; };
+		45B529351D9E544C009BC4AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45B5293A1D9E544C009BC4AD /* ADViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ADViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45B5293E1D9E544C009BC4AD /* ADViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ADViewUITests.m; sourceTree = "<group>"; };
+		45B529401D9E544C009BC4AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45B5294D1D9E5481009BC4AD /* ADView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADView.h; sourceTree = "<group>"; };
+		45B5294E1D9E5481009BC4AD /* ADView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45B529131D9E544C009BC4AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45B5292C1D9E544C009BC4AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45B529371D9E544C009BC4AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45644BDF1DC7175800F5611B /* ADView_Animation */ = {
+			isa = PBXGroup;
+			children = (
+				45644C021DC737DD00F5611B /* BaseAnimation */,
+				45644BE31DC719DA00F5611B /* ADViewFlipAnimation.h */,
+				45644BE41DC719DA00F5611B /* ADViewFlipAnimation.m */,
+				45644BE61DC71D2600F5611B /* ADViewCubeAnimation.h */,
+				45644BE71DC71D2600F5611B /* ADViewCubeAnimation.m */,
+				45644BFF1DC735AB00F5611B /* ADViewSuckEffectAnimation.h */,
+				45644C001DC735AB00F5611B /* ADViewSuckEffectAnimation.m */,
+				45644BEC1DC729E400F5611B /* ADViewLinerAnimation.h */,
+				45644BED1DC729E400F5611B /* ADViewLinerAnimation.m */,
+			);
+			path = ADView_Animation;
+			sourceTree = "<group>";
+		};
+		45644BF21DC7331500F5611B /* image */ = {
+			isa = PBXGroup;
+			children = (
+				45644BF31DC7334000F5611B /* 6.png */,
+				45644BF41DC7334000F5611B /* 5.png */,
+				45644BF51DC7334000F5611B /* 4.png */,
+				45644BF61DC7334000F5611B /* 3.png */,
+				45644BF71DC7334000F5611B /* 2.png */,
+				45644BF81DC7334000F5611B /* 1.png */,
+			);
+			path = image;
+			sourceTree = "<group>";
+		};
+		45644C021DC737DD00F5611B /* BaseAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				45644C031DC737DD00F5611B /* ADViewBaseAnimation.h */,
+				45644C041DC737DD00F5611B /* ADViewBaseAnimation.m */,
+				45644C051DC737DD00F5611B /* ADViewTransitionAnimation.h */,
+				45644C061DC737DD00F5611B /* ADViewTransitionAnimation.m */,
+			);
+			path = BaseAnimation;
+			sourceTree = "<group>";
+		};
+		45B5290D1D9E544C009BC4AD = {
+			isa = PBXGroup;
+			children = (
+				45B529181D9E544C009BC4AD /* ADView */,
+				45B529321D9E544C009BC4AD /* ADViewTests */,
+				45B5293D1D9E544C009BC4AD /* ADViewUITests */,
+				45B529171D9E544C009BC4AD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45B529171D9E544C009BC4AD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45B529161D9E544C009BC4AD /* ADView.app */,
+				45B5292F1D9E544C009BC4AD /* ADViewTests.xctest */,
+				45B5293A1D9E544C009BC4AD /* ADViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45B529181D9E544C009BC4AD /* ADView */ = {
+			isa = PBXGroup;
+			children = (
+				45644BF21DC7331500F5611B /* image */,
+				45B5294C1D9E5467009BC4AD /* ADView */,
+				45B5291C1D9E544C009BC4AD /* AppDelegate.h */,
+				45B5291D1D9E544C009BC4AD /* AppDelegate.m */,
+				45B5291F1D9E544C009BC4AD /* ViewController.h */,
+				45B529201D9E544C009BC4AD /* ViewController.m */,
+				45B529221D9E544C009BC4AD /* Main.storyboard */,
+				45B529251D9E544C009BC4AD /* Assets.xcassets */,
+				45B529271D9E544C009BC4AD /* LaunchScreen.storyboard */,
+				45B5292A1D9E544C009BC4AD /* Info.plist */,
+				45B529191D9E544C009BC4AD /* Supporting Files */,
+			);
+			path = ADView;
+			sourceTree = "<group>";
+		};
+		45B529191D9E544C009BC4AD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45B5291A1D9E544C009BC4AD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45B529321D9E544C009BC4AD /* ADViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				45B529331D9E544C009BC4AD /* ADViewTests.m */,
+				45B529351D9E544C009BC4AD /* Info.plist */,
+			);
+			path = ADViewTests;
+			sourceTree = "<group>";
+		};
+		45B5293D1D9E544C009BC4AD /* ADViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				45B5293E1D9E544C009BC4AD /* ADViewUITests.m */,
+				45B529401D9E544C009BC4AD /* Info.plist */,
+			);
+			path = ADViewUITests;
+			sourceTree = "<group>";
+		};
+		45B5294C1D9E5467009BC4AD /* ADView */ = {
+			isa = PBXGroup;
+			children = (
+				45644BE91DC71DAF00F5611B /* UIView+Frame.h */,
+				45644BEA1DC71DAF00F5611B /* UIView+Frame.m */,
+				45644BDF1DC7175800F5611B /* ADView_Animation */,
+				45B5294D1D9E5481009BC4AD /* ADView.h */,
+				45B5294E1D9E5481009BC4AD /* ADView.m */,
+			);
+			path = ADView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45B529151D9E544C009BC4AD /* ADView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45B529431D9E544C009BC4AD /* Build configuration list for PBXNativeTarget "ADView" */;
+			buildPhases = (
+				45B529121D9E544C009BC4AD /* Sources */,
+				45B529131D9E544C009BC4AD /* Frameworks */,
+				45B529141D9E544C009BC4AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ADView;
+			productName = ADView;
+			productReference = 45B529161D9E544C009BC4AD /* ADView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45B5292E1D9E544C009BC4AD /* ADViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45B529461D9E544C009BC4AD /* Build configuration list for PBXNativeTarget "ADViewTests" */;
+			buildPhases = (
+				45B5292B1D9E544C009BC4AD /* Sources */,
+				45B5292C1D9E544C009BC4AD /* Frameworks */,
+				45B5292D1D9E544C009BC4AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45B529311D9E544C009BC4AD /* PBXTargetDependency */,
+			);
+			name = ADViewTests;
+			productName = ADViewTests;
+			productReference = 45B5292F1D9E544C009BC4AD /* ADViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		45B529391D9E544C009BC4AD /* ADViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45B529491D9E544C009BC4AD /* Build configuration list for PBXNativeTarget "ADViewUITests" */;
+			buildPhases = (
+				45B529361D9E544C009BC4AD /* Sources */,
+				45B529371D9E544C009BC4AD /* Frameworks */,
+				45B529381D9E544C009BC4AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45B5293C1D9E544C009BC4AD /* PBXTargetDependency */,
+			);
+			name = ADViewUITests;
+			productName = ADViewUITests;
+			productReference = 45B5293A1D9E544C009BC4AD /* ADViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45B5290E1D9E544C009BC4AD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = sitemap;
+				TargetAttributes = {
+					45B529151D9E544C009BC4AD = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					45B5292E1D9E544C009BC4AD = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 45B529151D9E544C009BC4AD;
+					};
+					45B529391D9E544C009BC4AD = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 45B529151D9E544C009BC4AD;
+					};
+				};
+			};
+			buildConfigurationList = 45B529111D9E544C009BC4AD /* Build configuration list for PBXProject "ADView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45B5290D1D9E544C009BC4AD;
+			productRefGroup = 45B529171D9E544C009BC4AD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45B529151D9E544C009BC4AD /* ADView */,
+				45B5292E1D9E544C009BC4AD /* ADViewTests */,
+				45B529391D9E544C009BC4AD /* ADViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45B529141D9E544C009BC4AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45644BFE1DC7334000F5611B /* 1.png in Resources */,
+				45644BFB1DC7334000F5611B /* 4.png in Resources */,
+				45B529291D9E544C009BC4AD /* LaunchScreen.storyboard in Resources */,
+				45644BFD1DC7334000F5611B /* 2.png in Resources */,
+				45644BFA1DC7334000F5611B /* 5.png in Resources */,
+				45B529261D9E544C009BC4AD /* Assets.xcassets in Resources */,
+				45644BF91DC7334000F5611B /* 6.png in Resources */,
+				45644BFC1DC7334000F5611B /* 3.png in Resources */,
+				45B529241D9E544C009BC4AD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45B5292D1D9E544C009BC4AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45B529381D9E544C009BC4AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45B529121D9E544C009BC4AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45644BEB1DC71DAF00F5611B /* UIView+Frame.m in Sources */,
+				45B529211D9E544C009BC4AD /* ViewController.m in Sources */,
+				45644C011DC735AB00F5611B /* ADViewSuckEffectAnimation.m in Sources */,
+				45B5291E1D9E544C009BC4AD /* AppDelegate.m in Sources */,
+				45B5291B1D9E544C009BC4AD /* main.m in Sources */,
+				45644BE81DC71D2600F5611B /* ADViewCubeAnimation.m in Sources */,
+				45644BEE1DC729E400F5611B /* ADViewLinerAnimation.m in Sources */,
+				45644C071DC737DD00F5611B /* ADViewBaseAnimation.m in Sources */,
+				45644BE51DC719DA00F5611B /* ADViewFlipAnimation.m in Sources */,
+				45644C081DC737DD00F5611B /* ADViewTransitionAnimation.m in Sources */,
+				45B5294F1D9E5481009BC4AD /* ADView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45B5292B1D9E544C009BC4AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B529341D9E544C009BC4AD /* ADViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45B529361D9E544C009BC4AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45B5293F1D9E544C009BC4AD /* ADViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45B529311D9E544C009BC4AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45B529151D9E544C009BC4AD /* ADView */;
+			targetProxy = 45B529301D9E544C009BC4AD /* PBXContainerItemProxy */;
+		};
+		45B5293C1D9E544C009BC4AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45B529151D9E544C009BC4AD /* ADView */;
+			targetProxy = 45B5293B1D9E544C009BC4AD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45B529221D9E544C009BC4AD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45B529231D9E544C009BC4AD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45B529271D9E544C009BC4AD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45B529281D9E544C009BC4AD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45B529411D9E544C009BC4AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		45B529421D9E544C009BC4AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45B529441D9E544C009BC4AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ADView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sitemap.com.ADView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		45B529451D9E544C009BC4AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ADView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sitemap.com.ADView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		45B529471D9E544C009BC4AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ADViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sitemap.com.ADViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADView.app/ADView";
+			};
+			name = Debug;
+		};
+		45B529481D9E544C009BC4AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ADViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sitemap.com.ADViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ADView.app/ADView";
+			};
+			name = Release;
+		};
+		45B5294A1D9E544C009BC4AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ADViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sitemap.com.ADViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ADView;
+			};
+			name = Debug;
+		};
+		45B5294B1D9E544C009BC4AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ADViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sitemap.com.ADViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ADView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45B529111D9E544C009BC4AD /* Build configuration list for PBXProject "ADView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45B529411D9E544C009BC4AD /* Debug */,
+				45B529421D9E544C009BC4AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45B529431D9E544C009BC4AD /* Build configuration list for PBXNativeTarget "ADView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45B529441D9E544C009BC4AD /* Debug */,
+				45B529451D9E544C009BC4AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45B529461D9E544C009BC4AD /* Build configuration list for PBXNativeTarget "ADViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45B529471D9E544C009BC4AD /* Debug */,
+				45B529481D9E544C009BC4AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45B529491D9E544C009BC4AD /* Build configuration list for PBXNativeTarget "ADViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45B5294A1D9E544C009BC4AD /* Debug */,
+				45B5294B1D9E544C009BC4AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45B5290E1D9E544C009BC4AD /* Project object */;
+}
