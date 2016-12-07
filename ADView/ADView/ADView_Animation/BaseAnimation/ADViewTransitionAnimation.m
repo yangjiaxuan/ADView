@@ -23,7 +23,8 @@
     
     _complete = complete;
     CATransition *transitrion = [[CATransition alloc]init];
-    transitrion.duration = duration;
+    transitrion.duration      = duration;
+    
     if (self.slideToItem + self.slideDirection == 10) {
         transitrion.subtype = kCATransitionFromLeft;
     }
@@ -36,6 +37,7 @@
     else if (self.slideToItem + self.slideDirection == 20) {
         transitrion.subtype = kCATransitionFromBottom;
     }
+    transitrion.timingFunction = UIViewAnimationOptionCurveEaseInOut;
     transitrion.type = @"cube";
     transitrion.removedOnCompletion = NO;
     if (transitionSetting) {

@@ -14,8 +14,6 @@
 
     [super animationFromView:fromView toView:toView duration:duration transitionSetting:^(CATransition *transition) {
         transition.type = @"oglFlip";
-    } completion:^{
-        
-    }];
+    } completion:complete];
 }
 @end

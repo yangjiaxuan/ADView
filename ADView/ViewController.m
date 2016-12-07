@@ -22,8 +22,8 @@
     [super viewDidLoad];
     
     imageArr = @[@"1", @"2", @"3", @"4", @"5"];
-    adView = [[ADView alloc]initWithFrame:(CGRect){{10,110},{300,400}} slideDirection:ADViewSlideDirectionVertical];
-    adView.animationType = ADViewAnimationTypeCube;
+    adView = [[ADView alloc]initWithFrame:(CGRect){{10,110},{300,400}} slideDirection:ADViewSlideDirectionHorizontal];
+    adView.animationType = ADViewAnimationTypeFade;
     adView.animationDuration = 0.5;
     adView.spaceDuration     = 2.5;
     adView.delegate          = self;
@@ -36,9 +36,10 @@
 }
 
 - (UIView *)ADView:(ADView *)adView cellForItemAtIndex:(NSInteger)index{
-    UIImageView *imageView = [[UIImageView alloc]initWithFrame:(CGRect){{10,210},{300,80}}];
+    UIImageView *imageView = [[UIImageView alloc]init];
     imageView.image = [UIImage imageNamed:imageArr[index]];
     return imageView;
+
 }
 
 

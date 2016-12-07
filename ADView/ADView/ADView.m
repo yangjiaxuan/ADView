@@ -10,6 +10,12 @@
 #import "ADViewFlipAnimation.h"
 #import "ADViewCubeAnimation.h"
 #import "ADViewLinerAnimation.h"
+#import "ADViewSuckEffectAnimation.h"
+#import "ADViewRippleEffectAnimation.h"
+#import "ADViewFadeAnimation.h"
+#import "ADViewPushAnimation.h"
+#import "ADViewRevealAnimation.h"
+#import "ADViewMoveInAnimation.h"
 
 @interface ADView()
 {
@@ -47,7 +53,7 @@
 
 - (void)setUI{
     if ([self.delegate respondsToSelector:@selector(numberOfItemInADView:)]) {
-        _numberOfItems = [self .delegate numberOfItemInADView:self];
+        _numberOfItems = [self.delegate numberOfItemInADView:self];
     }
     BOOL isShowAnimation = self.showAnimation;
     CGFloat animationDuration = _animationDuration;
@@ -184,6 +190,24 @@
     }
     else if (animationType == ADViewAnimationTypeLiner) {
         _animation = [[ADViewLinerAnimation alloc]init];
+    }
+    else if (animationType == ADViewAnimationTypeSuckEffect) {
+        _animation = [[ADViewSuckEffectAnimation alloc]init];
+    }
+    else if (animationType == ADViewAnimationTypeRippleEffect) {
+        _animation = [[ADViewRippleEffectAnimation alloc]init];
+    }
+    else if (animationType == ADViewAnimationTypeFade) {
+        _animation = [[ADViewFadeAnimation alloc]init];
+    }
+    else if (animationType == ADViewAnimationTypePush) {
+        _animation = [[ADViewPushAnimation alloc]init];
+    }
+    else if (animationType == ADViewAnimationTypeReveal) {
+        _animation = [[ADViewRevealAnimation alloc]init];
+    }
+    else if (animationType == ADViewAnimationTypeMoveIn) {
+        _animation = [[ADViewMoveInAnimation alloc]init];
     }
     _animation.slideDirection = self.slideDirection;
 }

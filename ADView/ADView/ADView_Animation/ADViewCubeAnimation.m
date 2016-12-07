@@ -16,9 +16,7 @@
 - (void)animationFromView:(UIView *)fromView toView:(UIView *)toView duration:(CGFloat)duration completion:(dispatch_block_t)complete{
     [super animationFromView:fromView toView:toView duration:duration transitionSetting:^(CATransition *transition) {
         transition.type = @"cube";
-    } completion:^{
-        
-    }];
+    } completion:complete];
 }
 
 @end

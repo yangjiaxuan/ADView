@@ -29,6 +29,11 @@
 		45B529341D9E544C009BC4AD /* ADViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B529331D9E544C009BC4AD /* ADViewTests.m */; };
 		45B5293F1D9E544C009BC4AD /* ADViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B5293E1D9E544C009BC4AD /* ADViewUITests.m */; };
 		45B5294F1D9E5481009BC4AD /* ADView.m in Sources */ = {isa = PBXBuildFile; fileRef = 45B5294E1D9E5481009BC4AD /* ADView.m */; };
+		45FF44061DF7F6A200A85C93 /* ADViewRippleEffectAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FF44051DF7F6A200A85C93 /* ADViewRippleEffectAnimation.m */; };
+		45FF44091DF7FF9C00A85C93 /* ADViewFadeAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FF44081DF7FF9C00A85C93 /* ADViewFadeAnimation.m */; };
+		45FF440C1DF8011200A85C93 /* ADViewPushAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FF440B1DF8011200A85C93 /* ADViewPushAnimation.m */; };
+		45FF440F1DF801AC00A85C93 /* ADViewRevealAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FF440E1DF801AC00A85C93 /* ADViewRevealAnimation.m */; };
+		45FF44121DF801D900A85C93 /* ADViewMoveInAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FF44111DF801D900A85C93 /* ADViewMoveInAnimation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +92,16 @@
 		45B529401D9E544C009BC4AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45B5294D1D9E5481009BC4AD /* ADView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADView.h; sourceTree = "<group>"; };
 		45B5294E1D9E5481009BC4AD /* ADView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADView.m; sourceTree = "<group>"; };
+		45FF44041DF7F6A200A85C93 /* ADViewRippleEffectAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADViewRippleEffectAnimation.h; sourceTree = "<group>"; };
+		45FF44051DF7F6A200A85C93 /* ADViewRippleEffectAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADViewRippleEffectAnimation.m; sourceTree = "<group>"; };
+		45FF44071DF7FF9C00A85C93 /* ADViewFadeAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADViewFadeAnimation.h; sourceTree = "<group>"; };
+		45FF44081DF7FF9C00A85C93 /* ADViewFadeAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADViewFadeAnimation.m; sourceTree = "<group>"; };
+		45FF440A1DF8011200A85C93 /* ADViewPushAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADViewPushAnimation.h; sourceTree = "<group>"; };
+		45FF440B1DF8011200A85C93 /* ADViewPushAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADViewPushAnimation.m; sourceTree = "<group>"; };
+		45FF440D1DF801AC00A85C93 /* ADViewRevealAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADViewRevealAnimation.h; sourceTree = "<group>"; };
+		45FF440E1DF801AC00A85C93 /* ADViewRevealAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADViewRevealAnimation.m; sourceTree = "<group>"; };
+		45FF44101DF801D900A85C93 /* ADViewMoveInAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADViewMoveInAnimation.h; sourceTree = "<group>"; };
+		45FF44111DF801D900A85C93 /* ADViewMoveInAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADViewMoveInAnimation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +139,16 @@
 				45644BE71DC71D2600F5611B /* ADViewCubeAnimation.m */,
 				45644BFF1DC735AB00F5611B /* ADViewSuckEffectAnimation.h */,
 				45644C001DC735AB00F5611B /* ADViewSuckEffectAnimation.m */,
+				45FF44041DF7F6A200A85C93 /* ADViewRippleEffectAnimation.h */,
+				45FF44051DF7F6A200A85C93 /* ADViewRippleEffectAnimation.m */,
+				45FF44071DF7FF9C00A85C93 /* ADViewFadeAnimation.h */,
+				45FF44081DF7FF9C00A85C93 /* ADViewFadeAnimation.m */,
+				45FF440A1DF8011200A85C93 /* ADViewPushAnimation.h */,
+				45FF440B1DF8011200A85C93 /* ADViewPushAnimation.m */,
+				45FF440D1DF801AC00A85C93 /* ADViewRevealAnimation.h */,
+				45FF440E1DF801AC00A85C93 /* ADViewRevealAnimation.m */,
+				45FF44101DF801D900A85C93 /* ADViewMoveInAnimation.h */,
+				45FF44111DF801D900A85C93 /* ADViewMoveInAnimation.m */,
 				45644BEC1DC729E400F5611B /* ADViewLinerAnimation.h */,
 				45644BED1DC729E400F5611B /* ADViewLinerAnimation.m */,
 			);
@@ -369,8 +394,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45FF44121DF801D900A85C93 /* ADViewMoveInAnimation.m in Sources */,
 				45644BEB1DC71DAF00F5611B /* UIView+Frame.m in Sources */,
+				45FF44091DF7FF9C00A85C93 /* ADViewFadeAnimation.m in Sources */,
+				45FF44061DF7F6A200A85C93 /* ADViewRippleEffectAnimation.m in Sources */,
 				45B529211D9E544C009BC4AD /* ViewController.m in Sources */,
+				45FF440C1DF8011200A85C93 /* ADViewPushAnimation.m in Sources */,
 				45644C011DC735AB00F5611B /* ADViewSuckEffectAnimation.m in Sources */,
 				45B5291E1D9E544C009BC4AD /* AppDelegate.m in Sources */,
 				45B5291B1D9E544C009BC4AD /* main.m in Sources */,
@@ -379,6 +408,7 @@
 				45644C071DC737DD00F5611B /* ADViewBaseAnimation.m in Sources */,
 				45644BE51DC719DA00F5611B /* ADViewFlipAnimation.m in Sources */,
 				45644C081DC737DD00F5611B /* ADViewTransitionAnimation.m in Sources */,
+				45FF440F1DF801AC00A85C93 /* ADViewRevealAnimation.m in Sources */,
 				45B5294F1D9E5481009BC4AD /* ADView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

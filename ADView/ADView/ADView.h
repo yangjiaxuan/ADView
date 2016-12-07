@@ -14,6 +14,12 @@ typedef NS_ENUM(NSInteger, ADViewAnimationType){
     ADViewAnimationTypeFlip,
     ADViewAnimationTypeCube,
     ADViewAnimationTypeLiner,
+    ADViewAnimationTypeSuckEffect,
+    ADViewAnimationTypeRippleEffect,
+    ADViewAnimationTypeFade,
+    ADViewAnimationTypePush,
+    ADViewAnimationTypeReveal,
+    ADViewAnimationTypeMoveIn,
 };
 
 @protocol ADViewDelegate;
